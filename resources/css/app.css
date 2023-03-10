@@ -1,0 +1,222 @@
+body{
+    background-color: rgb(236, 234, 234);
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    background-color: #333;
+    width: 100%;
+    margin-top: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover, #logout:hover {
+    background-color: #111;
+}
+
+#logout{
+    color: white;
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+    float: center;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+#postingForm{
+    width: 70%;
+    margin: auto;
+    margin-top: 3rem;
+    text-align: center;
+}
+textarea{
+    width: 95%;
+    border-radius: 15px;
+}
+#postButton{
+    width: 7rem;
+    height: 2rem;
+    border: #000000 1px solid;
+    border-radius: 5px;
+    color: white;
+    background-color: #333;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+#postButton:hover{
+    border: white solid 1px;
+}
+
+#postsContainer{
+    width: 70%;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+.allPosts{
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+}
+
+.postContainer{
+    background-color: #125e5a4d;
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    border: #000000 solid 1px;
+}
+
+#deletePost{
+    background-color: #a30707;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 15px;
+    float: right;
+    cursor: pointer;
+}
+
+#deletePost:hover{
+    background-color: #07a374;
+}
+
+.likeing{
+    background-color: #071ea3d8;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 15px;
+    float: left;
+    cursor: pointer;
+}
+.likeing:hover{
+    background-color: #0791a3;
+}
+
+#postBodyContainer{
+    background-color: rgba(49, 73, 110, 0.623);
+    padding: 0.75rem;
+    margin: 1rem;
+    border-radius: 15px;
+    color: white;
+    font-size: 1.75rem;
+}
+
+#userProfile{
+    width: 60%;
+    margin: 0;
+}
+#userProfile a{
+    text-decoration: none;
+    color: #08382a;
+}
+
+.datePosted, .likesNum{
+    margin-top: 0;
+    color: #2b2828;
+    font-size: 15px;
+}
+
+.likesNumCont{
+    width: 20%;
+    position: relative;
+    margin-top: 1rem;
+}
+
+#PostPageContainer{
+    padding: 8rem;
+}
+
+#userProfileData{
+    margin-top: 5rem;
+    padding-left: 2rem;
+}
+
+#userProfilePosts{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+#loginFormContainer{
+    background-color: #0791a3;
+    margin-top: 10rem;
+    width: 30%;
+    height: 14rem;
+    padding-top: 1rem;
+    border-radius: 15px;
+    border: #000000 solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+#registerFormContainer{
+    background-color: #0791a3;
+    margin-top: 10rem;
+    width: 35%;
+    height: 20rem;
+    padding-top: 1rem;
+    border-radius: 15px;
+    border: #000000 solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+}
+
+#email, #password, #name, #username, #password_confirmation{
+    margin-bottom: 0.7rem;
+    width: 15rem;
+    height: 1.5rem;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+}
+
+#loginBittonContainer, #registerBittonContainer{
+    margin-top: 1rem;
+}
+
+
+#loginButton, #registerButton{
+    height: 2rem;
+    width: 5rem;
+    background-color: #09663f;
+    color: white;
+    border: #000000 solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
